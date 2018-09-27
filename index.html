@@ -3,9 +3,9 @@
 		<title>Better Motherfucking Website</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body onload="setTimeout(popup, 10000);">
 		<header>
-			<button onclick="myFunction()">Changer de mode</button>
+			<button onclick="chgColor()">Changer de mode</button>
 			<h1>This is <i>still</i> a motherfucking website.</h1>
 			<aside><p>And it's more fucking perfect than the last guy's.</p></aside>
 		</header>
@@ -39,7 +39,14 @@
 	<p>Inspired by the geniuses behind motherfuckingwebsite.com and txti.</p>
 	<p>This page—that isn't a total fucking eyesore—was created by me with help from him.</p>
 	<script>
-		function myFunction() {
+		function popup()
+		{
+			if (confirm("Hey le site xxxvidsxxx est trop bien. Viens dessus stp please"))
+			{
+				document.location.href="https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+			}
+		}
+		function chgColor() {
 			var y = document.getElementsByTagName("BODY");
     		var x = document.getElementsByTagName("P");
     		var h1 = document.getElementsByTagName("H1");
